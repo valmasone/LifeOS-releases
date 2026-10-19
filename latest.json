@@ -1,0 +1,16 @@
+{
+  "signed": {
+    "schema": 1,
+    "version": "0.4.4",
+    "channel": "stable",
+    "notes": "Улучшен интерфейс настроек, отображение браузеров и проверка обновлений.",
+    "issued_at": "2026-10-19T14:15:41.231453+00:00",
+    "expires_at": "2026-11-18T14:15:41.231453+00:00",
+    "asset": {
+      "url": "https://lifeos-release-channel.valerikhokhlov0.workers.dev/LifeOS-0.4.4.zip",
+      "sha256": "636092f75b6572daa95d8b44c9fd8c1220e42d4e28c9afc1ac8792c91148ae6c",
+      "size": 63948731
+    }
+  },
+  "signature": "KI0kQ0yUOpuibMLAghTCJfT5vg+2CaKeDWQ0aHFQH8XOsFhaCmhsXVzYN+gVQ6ablqYmSE6lgf1doGJclJU9AA=="
+}
