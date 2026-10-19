@@ -52,9 +52,13 @@ You do not need to create a task list to use activity tracking and break reminde
 
 > **The first public release is being prepared.** If [Releases](https://github.com/valmasone/LifeOS-releases/releases) contains no downloadable files, an official build is not yet available.
 
-## Privacy
+## Data and privacy
 
-LifeOS is designed to store work history locally. Browser-context recognition is optional and requires your permission. It is not designed to record keystrokes, capture screens, or read private conversations.
+**Your work history stays on your computer.** The current Windows version of LifeOS stores activity time, projects, tasks, and reports locally. This work history is not uploaded to LifeOS servers or used for remote user monitoring.
+
+Browser-context recognition is optional and requires your permission. The browser extension communicates with a local LifeOS component; it does not upload page contents, conversations, browsing history, or keystrokes.
+
+**An internet connection may be used to check for and download updates**, but work history is not part of those requests. As with any network service, the delivery provider may see the device's IP address. Any future cloud features will require separate user consent.
 
 ---
 
