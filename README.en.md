@@ -8,11 +8,17 @@
 
 **A personal companion for better time management and a healthier work rhythm.**
 
-[**Download for Windows**](https://github.com/valmasone/LifeOS-releases/releases) · [Русский](README.md) · [简体中文](README.zh-CN.md)
+[**Download LifeOS for Windows**](https://github.com/valmasone/LifeOS-releases/releases)
+
+[Русский](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Italiano](README.it.md) · [العربية](README.ar.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [日本語](README.ja.md)
 
 </div>
 
 ---
+
+## Why LifeOS exists
+
+Once you are juggling more than three projects, it becomes difficult to remember where your time went, keep track of breaks, stay active, and look after your health. Manual time tracking quickly becomes another job. LifeOS was created to reduce that burden by tracking activity, helping organize time across projects, and encouraging restorative breaks.
 
 ## More clarity. Less manual tracking.
 
@@ -50,7 +56,7 @@ You do not need to create a task list to use activity tracking and break reminde
 | **Android** | Planned |
 | **Cross-device synchronization** | Planned |
 
-> **The first public release is being prepared.** If [Releases](https://github.com/valmasone/LifeOS-releases/releases) contains no downloadable files, an official build is not yet available.
+> **LifeOS is in preview testing.** Builds in [Releases](https://github.com/valmasone/LifeOS-releases/releases) are for evaluation. A stable release will follow additional security reviews.
 
 ## Data and privacy
 
