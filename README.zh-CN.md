@@ -8,11 +8,17 @@
 
 **一款帮助你管理时间、保持健康工作节奏的个人助手。**
 
-[**下载 Windows 版**](https://github.com/valmasone/LifeOS-releases/releases) · [Русский](README.md) · [English](README.en.md)
+[**下载 LifeOS Windows 版**](https://github.com/valmasone/LifeOS-releases/releases)
+
+[Русский](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Italiano](README.it.md) · [العربية](README.ar.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [日本語](README.ja.md)
 
 </div>
 
 ---
+
+## LifeOS 的由来
+
+同时处理三个以上的项目时，很难记住时间花在哪里，也不容易兼顾休息、运动和健康。手工填写工时往往又成了一项负担。LifeOS 希望通过自动记录活动、帮助分配项目时间和适时提醒休息，让这件事变得轻松一些。
 
 ## 更清楚地了解时间，减少手动记录
 
@@ -50,7 +56,7 @@ LifeOS 尽量减少手动填写。对于无法准确识别的项目，系统会�
 | **Android** | 计划中 |
 | **多设备同步** | 计划中 |
 
-> **首个公开版本正在准备中。** 如果 [Releases](https://github.com/valmasone/LifeOS-releases/releases) 页面尚无文件，则目前没有可下载的官方版本。
+> **LifeOS 仍处于预览测试阶段。** [Releases](https://github.com/valmasone/LifeOS-releases/releases) 中的版本用于试用，正式稳定版将在安全评估后发布。
 
 ## 隐私保护
 
