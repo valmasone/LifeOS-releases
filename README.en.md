@@ -3,12 +3,11 @@
 <img src="assets/lifeos.svg" width="92" alt="LifeOS" />
 
 # LifeOS
-
 ### Work. Rest. Life.
 
-**A personal companion for better time management and a healthier work rhythm.**
+**A local-first Windows companion for work time, projects and breaks.**
 
-[**Download LifeOS for Windows**](https://github.com/valmasone/LifeOS-releases/releases)
+[Download Windows Preview](https://github.com/valmasone/LifeOS-releases/releases) · [Installation](INSTALL.md) · [Privacy](PRIVACY.md) · [Support](SUPPORT.md)
 
 [Русский](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Italiano](README.it.md) · [العربية](README.ar.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [日本語](README.ja.md)
 
@@ -16,55 +15,50 @@
 
 ---
 
-## Why LifeOS exists
+## Why LifeOS
 
-Once you are juggling more than three projects, it becomes difficult to remember where your time went, keep track of breaks, stay active, and look after your health. Manual time tracking quickly becomes another job. LifeOS was created to reduce that burden by tracking activity, helping organize time across projects, and encouraging restorative breaks.
+Juggling multiple projects shouldn't require another manual timekeeping job. LifeOS records active computer time, helps attribute it to known projects and encourages regular breaks. **When project evidence is insufficient, an interval stays unassigned rather than being guessed.**
 
-## More clarity. Less manual tracking.
+## Available functionality
 
-LifeOS is designed for people who spend long hours at a computer, move between projects, and want to make time for life beyond work.
+| Feature | Current behavior |
+| --- | --- |
+| Active time | Windows foreground activity, with idle time and sleep excluded from active work. |
+| Projects and tasks | Local project catalog and explicit context links; unknown intervals can be assigned manually. |
+| Breaks | Adjustable work/rest rhythm, reminders, pause and resume. |
+| Daily overview | Time totals and attribution to recognized projects. |
+| Browser integration | Optional browser extension sends limited metadata about the active tab to a local LifeOS bridge after consent. |
+| Updates | Signed-release verification, installation after approval and side-by-side versions for rollback. |
 
-### Features
+**Preview limits:** browser installation and reliable assignment for arbitrary chats are still being tested. LifeOS does not read Telegram/Mattermost message bodies, summarize private conversations with a language model, or claim to automatically identify every task.
 
-| | |
-| :--- | :--- |
-| **Know where time goes** | Track active computer time while accounting for breaks and time away. |
-| **Projects and tasks** | Recognize work context in supported applications and browsers with your permission. |
-| **Take meaningful breaks** | Customizable reminders and rest intervals to help build a sustainable routine. |
-| **Understand your day** | See activity totals and how time is distributed. |
-| **Privacy by default** | Work history remains on your device by default. |
+## Download and install
 
-LifeOS aims to reduce manual time tracking. If there is not enough information to identify a project reliably, the time remains unassigned instead of being attributed incorrectly.
+1. Browse [Releases](https://github.com/valmasone/LifeOS-releases/releases). The current published update channel is **0.4.9 preview**; later work remains private until release approval.
+2. Extract the **entire ZIP** to a dedicated folder and run `LifeOS.exe` on Windows. Where a verified LifeOS Setup installer is offered, prefer it for managed Launcher/OTA installations.
+3. Choose work and rest intervals. Enable optional workspace recognition if desired.
+4. Browser integration is optional. Installing a third-party CRX package may require an explicit browser-managed step until a verified store listing becomes available.
 
-## Getting started
+[Full install/update/data-preservation guide](INSTALL.md).
 
-**1.** Download an available version from [Releases](https://github.com/valmasone/LifeOS-releases/releases).
+## Local-first privacy
 
-**2.** Extract the complete archive and launch `LifeOS.exe` on Windows.
+Work history and project records stay in the Windows user profile and are **not uploaded to LifeOS servers**. The extension does not send webpage contents, chat messages, full URLs or browsing history to a cloud service. With consent, limited identifiers such as hostname, repository/issue, channel/conversation ID or tab group may be passed to the local native bridge. This metadata can itself be sensitive.
 
-**3.** Set your preferred work and break intervals. Activity tracking starts automatically.
+Update checks can contact release infrastructure, which may see the request's IP address. The local SQLite database is not encrypted by the application; Windows account access and disk encryption also matter.
 
-**4.** Optionally connect your browser to improve project recognition. The browser will request permission during initial setup.
+[Detailed privacy policy](PRIVACY.md).
 
-You do not need to create a task list to use activity tracking and break reminders.
-
-## Availability
+## Project status
 
 | Platform | Status |
-| :--- | :--- |
-| **Windows** | Preparing for a public release |
-| **Android** | Planned |
-| **Cross-device synchronization** | Planned |
+| --- | --- |
+| **Windows x64** | Preview for evaluation |
+| **Browser extension** | Preparing for Opera Add-ons; store listing not yet verified |
+| Android | Deferred until Windows 1.0 |
+| Cross-device sync | Not implemented |
 
-> **LifeOS is in preview testing.** Builds in [Releases](https://github.com/valmasone/LifeOS-releases/releases) are for evaluation. A stable release will follow additional security reviews.
-
-## Data and privacy
-
-**Your work history stays on your computer.** The current Windows version of LifeOS stores activity time, projects, tasks, and reports locally. This work history is not uploaded to LifeOS servers or used for remote user monitoring.
-
-Browser-context recognition is optional and requires your permission. The browser extension communicates with a local LifeOS component; it does not upload page contents, conversations, browsing history, or keystrokes.
-
-**An internet connection may be used to check for and download updates**, but work history is not part of those requests. As with any network service, the delivery provider may see the device's IP address. Any future cloud features will require separate user consent.
+**This is not Windows 1.0 GA.** Security, accessibility, real-browser and longer-duration acceptance tests remain open. [Changelog](CHANGELOG.md) · [Known limitations and support](SUPPORT.md).
 
 ---
 
@@ -72,6 +66,6 @@ Browser-context recognition is optional and requires your permission. The browse
 
 **LifeOS — your time belongs to you.**
 
-<sub>© 2026 LifeOS. All rights reserved.</sub>
+<sub>© 2026 LifeOS. Windows application source code is not distributed in this repository.</sub>
 
 </div>
