@@ -32,6 +32,20 @@ Juggling multiple projects shouldn't require another manual timekeeping job. Lif
 
 **Preview limits:** browser installation and reliable assignment for arbitrary chats are still being tested. LifeOS does not read Telegram/Mattermost message bodies, summarize private conversations with a language model, or claim to automatically identify every task.
 
+## How LifeOS works
+
+```mermaid
+flowchart LR
+    A["Foreground activity on Windows"] --> L["LifeOS"]
+    B["Opera / Yandex extension"] --> N["Local Native Messaging"]
+    N --> L
+    L --> D[("Projects and SQLite history")]
+    L --> R["Breaks and daily summaries"]
+    U["Signed update channel"] --> L
+```
+
+**Privacy boundary:** activity history is not uploaded to a LifeOS server. The extension sends only consented active-tab metadata to the local Windows program. Uncertain time stays unassigned. See [privacy](PRIVACY.en.md) and [known limitations](SUPPORT.md).
+
 ## Download and install
 
 1. Browse [Releases](https://github.com/valmasone/LifeOS-releases/releases). The current published update channel is **0.4.9 preview**; later work remains private until release approval.
