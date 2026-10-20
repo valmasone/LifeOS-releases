@@ -7,7 +7,7 @@
 
 **Локальное приложение для Windows: время работы, проекты и разумные перерывы.**
 
-[Скачать Windows Preview](https://github.com/valmasone/LifeOS-releases/releases) · [Установка](INSTALL.md) · [Конфиденциальность](PRIVACY.md) · [Помощь](SUPPORT.md)
+[Скачать Windows Preview](https://github.com/valmasone/LifeOS-releases/releases) · [Установка](INSTALL.md) · [Расширение Opera](OPERA_ADDONS.md) · [Конфиденциальность](PRIVACY.md) · [Помощь](SUPPORT.md)
 
 [Русский](README.md) · [English](README.en.md) · [简体中文](README.zh-CN.md) · [Español](README.es.md) · [Italiano](README.it.md) · [العربية](README.ar.md) · [한국어](README.ko.md) · [Deutsch](README.de.md) · [Français](README.fr.md) · [Português](README.pt.md) · [日本語](README.ja.md)
 
