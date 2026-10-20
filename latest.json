@@ -1,16 +1,16 @@
 {
   "signed": {
     "schema": 1,
-    "version": "0.4.8",
+    "version": "0.4.9",
     "channel": "stable",
     "notes": "Улучшения LifeOS и исправления ошибок.",
-    "issued_at": "2026-10-20T08:03:31.772889+00:00",
-    "expires_at": "2026-11-19T08:03:31.772889+00:00",
+    "issued_at": "2026-10-20T11:05:24.208641+00:00",
+    "expires_at": "2026-11-19T11:05:24.208641+00:00",
     "asset": {
-      "url": "https://lifeos-release-channel.valerikhokhlov0.workers.dev/LifeOS-0.4.8.zip",
-      "sha256": "632302337f01825268e0991c6accb170b76cbb2bc2d423ce8db12ce7e27b4491",
-      "size": 64120608
+      "url": "https://lifeos-release-channel.valerikhokhlov0.workers.dev/LifeOS-0.4.9.zip",
+      "sha256": "0952843c5e41696aeea9b91884e17e93c9a77e180b61f5a9a7d961c1b6bef346",
+      "size": 64133209
     }
   },
-  "signature": "Ye8Z31mcArBDJkBca4TiVwZSCtUljvlVdgZVppiSP5g3fQ6UnYTv6a+fRDkSOP+QCZENqAZusiRvwtwhTOD2BQ=="
+  "signature": "00dGkzI27UnHnlU+CqJ1ZvxsIDU2rM5pc73RbT+JO8Sik2QvlnF8o5cajUDv89LqEPvyOt0XktH3rV9VVD2/BQ=="
 }
