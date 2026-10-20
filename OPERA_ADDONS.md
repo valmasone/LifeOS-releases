@@ -28,6 +28,8 @@ LifeOS Projects — необязательное расширение брауз
 
 **Политика конфиденциальности:** https://github.com/valmasone/LifeOS-releases/blob/main/PRIVACY.md
 
+**Privacy policy (English):** https://github.com/valmasone/LifeOS-releases/blob/main/PRIVACY.en.md
+
 **Лицензия:** выбрать в интерфейсе Opera вариант, условия которого владелец принимает. Не объявлять код открытым и не устанавливать лицензию без согласия владельца. Если нужна собственная EULA, сначала подготовить и утвердить её.
 
 ## Зачем нужны разрешения

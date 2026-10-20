@@ -47,7 +47,7 @@ Work history and project records stay in the Windows user profile and are **not 
 
 Update checks can contact release infrastructure, which may see the request's IP address. The local SQLite database is not encrypted by the application; Windows account access and disk encryption also matter.
 
-[Detailed privacy policy](PRIVACY.md).
+[Detailed privacy policy](PRIVACY.en.md) · [Russian policy](PRIVACY.md).
 
 ## Project status
 
