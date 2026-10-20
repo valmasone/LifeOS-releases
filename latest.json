@@ -1,16 +1,16 @@
 {
   "signed": {
     "schema": 1,
-    "version": "0.4.4",
+    "version": "0.4.8",
     "channel": "stable",
-    "notes": "Улучшен интерфейс настроек, отображение браузеров и проверка обновлений.",
-    "issued_at": "2026-10-19T14:15:41.231453+00:00",
-    "expires_at": "2026-11-18T14:15:41.231453+00:00",
+    "notes": "Улучшения LifeOS и исправления ошибок.",
+    "issued_at": "2026-10-20T08:03:31.772889+00:00",
+    "expires_at": "2026-11-19T08:03:31.772889+00:00",
     "asset": {
-      "url": "https://lifeos-release-channel.valerikhokhlov0.workers.dev/LifeOS-0.4.4.zip",
-      "sha256": "636092f75b6572daa95d8b44c9fd8c1220e42d4e28c9afc1ac8792c91148ae6c",
-      "size": 63948731
+      "url": "https://lifeos-release-channel.valerikhokhlov0.workers.dev/LifeOS-0.4.8.zip",
+      "sha256": "632302337f01825268e0991c6accb170b76cbb2bc2d423ce8db12ce7e27b4491",
+      "size": 64120608
     }
   },
-  "signature": "KI0kQ0yUOpuibMLAghTCJfT5vg+2CaKeDWQ0aHFQH8XOsFhaCmhsXVzYN+gVQ6ablqYmSE6lgf1doGJclJU9AA=="
+  "signature": "Ye8Z31mcArBDJkBca4TiVwZSCtUljvlVdgZVppiSP5g3fQ6UnYTv6a+fRDkSOP+QCZENqAZusiRvwtwhTOD2BQ=="
 }
